@@ -1,0 +1,42 @@
+/*Inicio estilos sectionCuatro*/
+
+.sectionCuatro {
+  background-color: $bg-section4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .registrate {
+    color: $color-letras;
+    position: relative;
+    top: 35px;
+    font-size: 35px;
+  }
+  .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    form {
+      .btn {
+        background-color: $btn;
+        color: white;
+        /*inicio de animaciones*/
+        &:hover {
+          transform: scale(1.2);
+          /*Fin animaciones*/
+        }
+      }
+    }
+  }
+}
+
+.sectionCuatro .sectionCuatro__registro {
+  color: $color-letras;
+  font-size: x-large;
+  position: relative;
+  bottom: 8%;
+  font-family: cursive;
+}
+
+/*Fin estilos sectionCuatro*/

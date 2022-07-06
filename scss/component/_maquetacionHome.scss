@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Inicio maquetacion index*/
+.grid-container {
+  display: grid;
+  grid-template-rows: 120px 600px 400px 500px 400px 400px;
+  grid-template-areas:
+    "header"
+    "sectionUno"
+    "sectionDos"
+    "sectionTres"
+    "sectionCuatro"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionUno {
+  grid-area: sectionUno;
+  width: 100%;
+}
+
+.sectionDos {
+  grid-area: sectionDos;
+  width: 100%;
+}
+
+.sectionTres {
+  grid-area: sectionTres;
+  width: 100%;
+}
+
+.sectionCuatro {
+  grid-area: sectionCuatro;
+  width: 100%;
+}
+
+.pie {
+  grid-area: footer;
+
+  width: 100%;
+}
+
+/*Fin maquetacion*/
+/*----------------------------------------------------------------------*/

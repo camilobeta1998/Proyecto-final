@@ -1,0 +1,147 @@
+.grid-container {
+  /*Inicio maquetacion del index en vista mobile*/
+  /*aqui aplicaremos media querys para mobile*/
+  @media only screen and (max-width: 480px) {
+    display: grid;
+    grid-template-rows: 80px 180px 400px 1000px 400px 400px;
+    grid-template-areas:
+      "header"
+      "sectionUno"
+      "sectionDos"
+      "sectionTres"
+      "sectionCuatro"
+      "footer";
+    /*inicio estilos del header*/
+    .header {
+      grid-area: header;
+      background-color: #56beb6;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      .header__logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 15%;
+      }
+    }
+    /*Fin de estilos del header*/
+
+    /*---------------------------------------------------------------------------------*/
+
+    /*inicio estilos de la sectionUno del home*/
+    .sectionUno {
+      grid-area: sectionUno;
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .sectionUno__contenedor1 {
+        top: 2%;
+        left: 1%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        p {
+          width: 99%;
+          font-size: 14px;
+        }
+
+        .sectionUno__registrarse {
+          position: relative;
+          padding: 5px 10px;
+          width: fit-content;
+          text-decoration: none;
+        }
+      }
+    }
+    /*Fin estilos sectionUno del home*/
+
+    /*Inicio sectionDos del home*/
+    .sectionDos {
+      grid-area: sectionDos;
+      width: 100%;
+      .sectionDos__contenedor1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        p {
+          color: white;
+          width: 90%;
+        }
+        .sectionDos__contenedor1__video {
+          width: 250px;
+        }
+      }
+    }
+    /*fin estilos de la sectionDos del home*/
+
+    /*inicio estilos de la sectionTres del home*/
+    .sectionTres {
+      grid-area: sectionTres;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: nowrap;
+
+      .sectionTres__contenedor {
+        width: 60%;
+        height: 300px;
+        border-radius: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+          width: 80%;
+          border-radius: 15%;
+        }
+
+        p {
+          position: relative;
+          bottom: 2%;
+          font-family: "Roboto", sans-serif;
+        }
+
+        .sectionTres__david {
+          position: relative;
+          left: 1px;
+          text-align: center;
+        }
+        .sectionTres__div3__frase3 {
+          width: 80%;
+          text-align: center;
+        }
+      }
+      /*Fin de los estilos de la sectionTres del home*/
+
+      /*Inicio de los estilos de la sectionCuatro del home*/
+      .sectionCuatro {
+        grid-area: sectionCuatro;
+        width: 100%;
+      }
+      /*Fin de los estilos de la sectionCuatro del home*/
+
+      /*Inicio de los estilos del footer*/
+      .pie {
+        grid-area: footer;
+        width: 100%;
+      }
+      /*Fin de los estilos del footer*/
+    }
+  }
+}

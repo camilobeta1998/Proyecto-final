@@ -1,0 +1,39 @@
+@import "../bases/variables.scss";
+
+/*Estilos header*/
+
+.header {
+  .navbar {
+    background-color: $color-header;
+    width: 100%;
+    .container-fluid {
+      .navbar-brand {
+        .logo {
+          width: 70px;
+          border-radius: 50%;
+        }
+      }
+      .mostrar {
+        z-index: 1;
+        background-color: $color-header;
+        text-align: center;
+        .navbar-nav {
+          .nav-item {
+            a {
+              /*Inicio animaciones del navbar del header*/
+              &:hover {
+                transform: scale(1.2);
+              }
+              /*Fin animaciones del navbar del header*/
+              color: $color-hover-menu;
+              font-size: 15px;
+              margin-left: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /*Fin estilos del navbar del header*/
+}
+/*Fin estilos del header*/

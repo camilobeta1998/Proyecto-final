@@ -1,0 +1,40 @@
+@import "../bases/variables.scss";
+
+/*Estilos SectionUno*/
+
+.sectionUno {
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .sectionUno__contenedor1 {
+    top: 2%;
+    left: 1%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    p {
+      color: $color-letras;
+      width: 45%;
+    }
+    .sectionUno__registrarse {
+      bottom: 12px;
+      position: relative;
+      color: $color-letras;
+      padding: 10px 10px;
+      width: fit-content;
+      background-color: $color-registrarse;
+      text-decoration: none;
+      /*animaciones del boton de registrarse de la sectionUno del home*/
+      &:hover {
+        transform: scale(1.2);
+      }
+      /*Fin aniamciones del boton registrarse de la sectionUno del home*/
+    }
+  }
+}
