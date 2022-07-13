@@ -149,6 +149,17 @@
   transform: scale(1.2);
 }
 
+/*aqui importaremos los mixin*/ /*usare este mixin para cambiarle el color al parrafo de la sectionDos home*/ /*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 /*Inicio sectionDos*/
 .sectionDos {
   background-color: #56beb6;
@@ -166,11 +177,23 @@
   width: 40%;
 }
 .sectionDos .sectionDos__contenedor1 p {
+  /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
   width: 40%;
 }
 
 /*Fin sectionDos*/
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 /*Inicio estilos sectionTres*/
 .sectionTres {
   background-color: #f2cf66;
@@ -215,6 +238,17 @@
 
 /*Fin estilos sectionTres*/
 /*----------------------------------------------------------*/
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 /*Inicio estilos sectionCuatro*/
 .sectionCuatro {
   background-color: #f29985;
@@ -254,7 +288,17 @@
 }
 
 /*Fin estilos sectionCuatro*/
-/*Inicio estilos del footer */
+/*Inicio estilos del footer */ /*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 /*aqui importare el extend para los botones*/
 /*Voy a hacer un extend para todos los botones de mi page Home*/
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {

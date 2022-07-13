@@ -1,3 +1,7 @@
+/*aqui importaremos los mixin*/
+@import "../bases/mixins";
+@import "../bases/variables.scss";
+
 /*Inicio sectionDos*/
 .sectionDos {
   background-color: $bg-section2;
@@ -13,7 +17,8 @@
       width: 40%;
     }
     p {
-      color: $color-letras;
+      /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
+      @include primer-mixin($color-letras);
       width: 40%;
     }
   }

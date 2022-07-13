@@ -1,0 +1,5 @@
+/*usare este mixin para cambiarle el color al parrafo de la sectionDos home*/
+
+@mixin primer-mixin($vacia) {
+  color: $vacia;
+}
