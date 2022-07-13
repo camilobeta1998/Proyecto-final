@@ -2,6 +2,11 @@ aqui irá lo le voy haciendo para mejorar el posicionamineto de mi pagina.
 
 1- agregue los encabezados en orden de importancia.
 
-2- se agrego una buena descripcion a todas las imagenes y videos de nuestra pagina
+2- se agrego una buena descripcion a todas las imagenes y videos de nuestra pagina.
 
-3-
+3- Cambie el primer div del navbar de bootstrap  por la etiqueta semanttica section.
+
+4- utilice las metatags en el header de todas las paginas.
+
+5- utilice un mejor title en todas las paginas.
+
