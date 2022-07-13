@@ -16,7 +16,7 @@
     .sectionDos__contenedor1__video {
       width: 40%;
     }
-    p {
+    .sectionDos__contenedor2 {
       /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
       @include primer-mixin($color-letras);
       width: 40%;

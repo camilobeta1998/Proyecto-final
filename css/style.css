@@ -176,7 +176,7 @@
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
   width: 40%;
 }
-.sectionDos .sectionDos__contenedor1 p {
+.sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
   /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
   width: 40%;
