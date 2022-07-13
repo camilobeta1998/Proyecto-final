@@ -10,3 +10,6 @@ aqui irá lo le voy haciendo para mejorar el posicionamineto de mi pagina.
 
 5- utilice un mejor title en todas las paginas.
 
+6- utilizare un meta name para describir las paginas
+
+7. Open graph
