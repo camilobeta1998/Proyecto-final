@@ -1,10 +1,15 @@
 @import "../bases/variables.scss";
 
+/*Importare el mapa*/
+
+@import "../bases/mapas";
+
 /*Estilos header*/
 
 .header {
   .navbar {
-    background-color: $color-header;
+    /*aqui  mande a llamar al mapa*/
+    background-color: map-get($mapa, color-header-con-mapa);
     width: 100%;
     .container-fluid {
       .navbar-brand {

@@ -1,22 +1,12 @@
 /*Inicio estilos home para pantallas medianas del home*/
-
-.grid-container {
-  display: grid;
-  grid-template-rows: 150px 500px 600px 300px 400px 600px;
-  grid-template-areas:
-    "header"
-    "sectionUno"
-    "sectionDos"
-    "sectionTres"
-    "sectionTres"
-    "sectionCuatro"
-    "footer";
-  @media only screen and (min-width: 481px) and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-container {
     .sectionUno {
       .sectionUno__contenedor1 {
         p {
           width: 98%;
           font-size: 14px;
+          color: violet;
         }
         .sectionUno__registrarse {
           position: relative;

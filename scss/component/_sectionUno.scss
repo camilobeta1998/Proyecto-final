@@ -1,5 +1,9 @@
 @import "../bases/variables.scss";
 
+/*aqui se importará el extend para los botones*/
+
+@import "../bases/extends";
+
 /*Estilos SectionUno*/
 
 .sectionUno {
@@ -26,8 +30,7 @@
       bottom: 12px;
       position: relative;
       color: $color-letras;
-      padding: 10px 10px;
-      width: fit-content;
+      @extend %botones;
       background-color: $color-registrarse;
       text-decoration: none;
       /*animaciones del boton de registrarse de la sectionUno del home*/
