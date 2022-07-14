@@ -3,7 +3,7 @@
   .grid-container {
     /*Inicio maquetacion index*/
     display: grid;
-    grid-template-rows: 100px 400px 500px 1000px 400px 350px;
+    grid-template-rows: 100px 300px 800px 1000px 400px 350px;
     grid-template-areas:
       "header"
       "sectionUno"
@@ -14,9 +14,9 @@
     .sectionUno {
       .sectionUno__contenedor1 {
         p {
-          width: 98%;
+          width: 100%;
           font-size: 14px;
-          color: violet;
+          color: white;
         }
         .sectionUno__registrarse {
           position: relative;
@@ -33,12 +33,9 @@
         flex-direction: column;
         justify-content: centert;
         align-items: center;
-        p {
-          width: 98%;
-          text-align: center;
-        }
+
         .sectionDos__contenedor1__video {
-          width: 80%;
+          width: 90%;
         }
       }
     }
@@ -58,6 +55,10 @@
         justify-content: space-around;
         align-items: center;
         box-shadow: 10px 5px 10px #56beb6;
+        .sectionTres__david {
+          text-align: center;
+        }
+
         img {
           width: 80%;
           border-radius: 15%;

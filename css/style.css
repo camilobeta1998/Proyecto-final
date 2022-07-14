@@ -179,7 +179,7 @@
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
   /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
-  width: 40%;
+  width: 50%;
 }
 
 /*Fin sectionDos*/
@@ -321,9 +321,9 @@
   font-family: "Roboto", sans-serif;
 }
 .pie .pie__contenedor2 img {
-  width: 5%;
+  width: 70px;
   position: relative;
-  bottom: 5px;
+  bottom: 15px;
   left: 25px;
 }
 .pie .pie__contenedor3 {
@@ -363,7 +363,7 @@
 @media only screen and (max-width: 480px) {
   .grid-container {
     display: grid;
-    grid-template-rows: 80px 180px 400px 1000px 400px 400px;
+    grid-template-rows: 80px 180px 700px 1000px 400px 370px;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
     /*inicio estilos del header*/
     /*Fin de estilos del header*/
@@ -436,7 +436,7 @@
     width: 90%;
   }
   .grid-container .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
-    width: 250px;
+    width: 320px;
   }
   .grid-container .sectionTres {
     grid-area: sectionTres;
@@ -494,13 +494,13 @@
   .grid-container {
     /*Inicio maquetacion index*/
     display: grid;
-    grid-template-rows: 100px 400px 500px 1000px 400px 350px;
+    grid-template-rows: 100px 300px 800px 1000px 400px 350px;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
   }
   .grid-container .sectionUno .sectionUno__contenedor1 p {
-    width: 98%;
+    width: 100%;
     font-size: 14px;
-    color: violet;
+    color: white;
   }
   .grid-container .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
     position: relative;
@@ -515,12 +515,8 @@
     justify-content: centert;
     align-items: center;
   }
-  .grid-container .sectionDos .sectionDos__contenedor1 p {
-    width: 98%;
-    text-align: center;
-  }
   .grid-container .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
-    width: 80%;
+    width: 90%;
   }
   .grid-container .sectionTres {
     display: flex;
@@ -538,6 +534,9 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 10px 5px 10px #56beb6;
+  }
+  .grid-container .sectionTres .sectionTres__contenedor .sectionTres__david {
+    text-align: center;
   }
   .grid-container .sectionTres .sectionTres__contenedor img {
     width: 80%;

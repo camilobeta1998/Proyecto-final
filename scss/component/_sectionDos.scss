@@ -19,7 +19,7 @@
     .sectionDos__contenedor2 {
       /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
       @include primer-mixin($color-letras);
-      width: 40%;
+      width: 50%;
     }
   }
 } /*Fin sectionDos*/
