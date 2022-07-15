@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -74,7 +79,6 @@
 .sectionUnoNosotros {
   grid-area: sectionUnoNosotros;
   width: 100%;
-  border: solid 4px violet;
 }
 
 .sectionDosNosotros {
@@ -612,6 +616,99 @@
     font-family: "Roboto", sans-serif;
   }
 }
+/*importare las fueentes que estan en maquetacion*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Inicio maquetacion index*/
+.grid-container {
+  display: grid;
+  grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionUno {
+  grid-area: sectionUno;
+  width: 100%;
+}
+
+.sectionDos {
+  grid-area: sectionDos;
+  width: 100%;
+}
+
+.sectionTres {
+  grid-area: sectionTres;
+  width: 100%;
+}
+
+.sectionCuatro {
+  grid-area: sectionCuatro;
+  width: 100%;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion*/
+/*----------------------------------------------------------------------*/
+/*Inicio maquetacion del Nosotros*/
+.grid-containerNosotros {
+  display: grid;
+  grid-template-rows: 90px 600px 800px 500px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionUnoNosotros {
+  grid-area: sectionUnoNosotros;
+  width: 100%;
+}
+
+.sectionDosNosotros {
+  grid-area: sectionDosNosotros;
+  width: 100%;
+  border: solid 4px blue;
+}
+
+.sectionTresNosotros {
+  grid-area: sectionTresNosotros;
+  width: 100%;
+  border: solid 4px green;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion*/
 /*Inicio estilos de Nos0tros*/
 .grid-containerNosotros .sectionUnoNosotros img {
   rotate: 5px;
@@ -620,18 +717,21 @@
   position: relative;
 }
 .grid-containerNosotros .sectionUnoNosotros .sectionUnoNosotros__parrafo1 {
-  font-size: 150px;
+  font-size: 70px;
   position: absolute;
-  top: 50px;
+  top: 400px;
   left: 20px;
   color: white;
+  text-shadow: 4px 4px 4px black;
 }
 .grid-containerNosotros .sectionUnoNosotros .sectionUnoNosotros__parrafo2 {
   font-size: 170px;
   position: absolute;
-  top: 155px;
+  top: 430px;
   left: 20px;
   color: white;
+  font-family: "Anton", sans-serif;
+  text-shadow: 7px 7px 7px black;
 }
 
 /*# sourceMappingURL=style.css.map */

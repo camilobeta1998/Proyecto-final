@@ -1,3 +1,6 @@
+/*importare las fueentes que estan en maquetacion*/
+@import "../component/maquetacionHome";
+
 /*Inicio estilos de Nos0tros*/
 
 .grid-containerNosotros {
@@ -9,18 +12,21 @@
       position: relative;
     }
     .sectionUnoNosotros__parrafo1 {
-      font-size: 150px;
+      font-size: 70px;
       position: absolute;
-      top: 50px;
+      top: 400px;
       left: 20px;
       color: white;
+      text-shadow: 4px 4px 4px black;
     }
     .sectionUnoNosotros__parrafo2 {
       font-size: 170px;
       position: absolute;
-      top: 155px;
+      top: 430px;
       left: 20px;
       color: white;
+      font-family: "Anton", sans-serif;
+      text-shadow: 7px 7px 7px black;
     }
   }
 }
