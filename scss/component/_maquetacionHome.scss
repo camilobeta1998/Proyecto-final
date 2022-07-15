@@ -60,3 +60,51 @@
 /*----------------------------------------------------------------------*/
 
 /*Inicio maquetacion del Nosotros*/
+
+.grid-containerNosotros {
+  display: grid;
+  grid-template-rows: 90px 600px 800px 500px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "sectionUnoNosotros"
+    "sectionDosNosotros"
+    "sectionTresNosotros"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sectionUnoNosotros {
+  grid-area: sectionUnoNosotros;
+  width: 100%;
+  border: solid 4px violet;
+}
+
+.sectionDosNosotros {
+  grid-area: sectionDosNosotros;
+  width: 100%;
+  border: solid 4px blue;
+}
+
+.sectionTresNosotros {
+  grid-area: sectionTresNosotros;
+  width: 100%;
+  border: solid 4px green;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion*/
