@@ -3,10 +3,14 @@
 /*Importare el mapa*/
 
 @import "../bases/mapas";
+@import "../bases/variables.scss";
 
 /*Estilos header*/
 
 .header {
+  position: fixed;
+  background-color: $color-header;
+  z-index: 1;
   .navbar {
     /*aqui  mande a llamar al mapa*/
     background-color: map-get($mapa, color-header-con-mapa);

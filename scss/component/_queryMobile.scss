@@ -3,7 +3,7 @@
   /*aqui aplicaremos media querys para mobile*/
   @media only screen and (max-width: 480px) {
     display: grid;
-    grid-template-rows: 80px 180px 700px 1000px 400px 370px;
+    grid-template-rows: 60px 180px 700px 1000px 400px 370px;
     grid-template-areas:
       "header"
       "sectionUno"
