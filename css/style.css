@@ -612,5 +612,26 @@
     font-family: "Roboto", sans-serif;
   }
 }
+/*Inicio estilos de Nos0tros*/
+.grid-containerNosotros .sectionUnoNosotros img {
+  rotate: 5px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.grid-containerNosotros .sectionUnoNosotros .sectionUnoNosotros__parrafo1 {
+  font-size: 150px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  color: white;
+}
+.grid-containerNosotros .sectionUnoNosotros .sectionUnoNosotros__parrafo2 {
+  font-size: 170px;
+  position: absolute;
+  top: 155px;
+  left: 20px;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
