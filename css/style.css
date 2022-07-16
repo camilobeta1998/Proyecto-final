@@ -136,7 +136,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 600px 500px 400px;
+    grid-template-rows: 90px 250px 800px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -618,7 +618,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 600px 500px 400px;
+    grid-template-rows: 90px 250px 800px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -741,6 +741,13 @@
   position: relative;
   right: 15px;
 }
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 h1 {
+    position: relative;
+    right: 15px;
+    bottom: 90px;
+  }
+}
 .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
   color: white;
   margin-left: 45px;
@@ -755,6 +762,7 @@
   .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
     position: relative;
     right: 35px;
+    bottom: 90px;
   }
 }
 .grid-containerNosotros .sectionTresNosotros {
@@ -768,6 +776,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  height: 800px;
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div {
   display: flex;
@@ -778,10 +787,17 @@
   height: 240px;
   border-radius: 25px;
   box-shadow: 10px 5px 10px #56beb6;
+  /*estilo mobile de las cajitas de la sectionTres de Nosotros*/
   /*Pantalla mediana de la sectionTres de nosotros*/
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div:hover {
   transform: scale(1.1);
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div {
+    width: 90%;
+    height: 340px;
+  }
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div h2 {
   color: white;
@@ -795,6 +811,11 @@
     width: 80%;
   }
 }
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div p {
+    width: 90%;
+  }
+}
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div {
     width: 80%;
@@ -804,21 +825,30 @@
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor2 h2 {
   color: white;
+  position: relative;
+  bottom: 45px;
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor2 p {
   color: white;
   width: 95%;
 }
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor2 p {
+    width: 90%;
+    position: relative;
+    bottom: 30px;
+  }
+}
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerNosotros .sectionTresNosotros .cajita2 {
     position: relative;
-    top: 25px;
+    top: 42px;
   }
 }
 
