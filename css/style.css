@@ -184,7 +184,17 @@
   width: 100%;
 }
 
-/*Fin maquetacion desktop*/
+/*Fin maquetacion desktop Sabores*/
+/*--------------------------------------------------------*/
+/*Inicio maquetacion mediana Sabores */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -706,7 +716,17 @@
   width: 100%;
 }
 
-/*Fin maquetacion desktop*/
+/*Fin maquetacion desktop Sabores*/
+/*--------------------------------------------------------*/
+/*Inicio maquetacion mediana Sabores */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -1115,7 +1135,17 @@
   width: 100%;
 }
 
-/*Fin maquetacion desktop*/
+/*Fin maquetacion desktop Sabores*/
+/*--------------------------------------------------------*/
+/*Inicio maquetacion mediana Sabores */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -1131,6 +1161,31 @@
 .grid-containerSabores .sectionUnoSabores img {
   width: 100%;
   height: 100%;
+  position: relative;
+}
+.grid-containerSabores .sectionUnoSabores p {
+  color: white;
+}
+.grid-containerSabores .sectionUnoSabores .sabores {
+  font-family: "Anton", sans-serif;
+  font-size: 200px;
+  position: absolute;
+  top: 18%;
+  left: 2%;
+  text-shadow: 4px 4px 4px black;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores .sectionUnoSabores .sabores {
+    font-size: 100px;
+    top: 22%;
+  }
+}
+.grid-containerSabores .sectionUnoSabores .nuestros {
+  position: absolute;
+  top: 8%;
+  left: 2%;
+  font-size: 100px;
+  text-shadow: 4px 4px 4px black;
 }
 
 /*# sourceMappingURL=style.css.map */
