@@ -11,15 +11,18 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     .sectionDos__contenedor1__video {
       width: 40%;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        width: 500px;
+      }
     }
     .sectionDos__contenedor2 {
       /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
       @include primer-mixin($color-letras);
-      width: 50%;
+      width: 550px;
     }
   }
 } /*Fin sectionDos*/

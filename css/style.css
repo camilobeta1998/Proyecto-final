@@ -52,6 +52,43 @@
 /*Fin maquetacion desktop*/
 /*----------------------------------------------------------------------*/
 /*Inicio maquetacion index medianas*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+  .grid-container .header {
+    grid-area: header;
+    background-color: #56beb6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .grid-container .sectionUno {
+    grid-area: sectionUno;
+    width: 100%;
+  }
+  .grid-container .sectionDos {
+    grid-area: sectionDos;
+    width: 100%;
+  }
+  .grid-container .sectionTres {
+    grid-area: sectionTres;
+    width: 100%;
+  }
+  .grid-container .sectionCuatro {
+    grid-area: sectionCuatro;
+    width: 100%;
+  }
+  .grid-container .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
 /*Fin maquetacion index medianas*/
 /*---------------------------------------------------------------*/
 /*Inicio maquetacion del Nosotros*/
@@ -190,7 +227,13 @@
 }
 .sectionUno .sectionUno__contenedor1 p {
   color: white;
-  width: 45%;
+  width: 50%;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionUno .sectionUno__contenedor1 p {
+    color: white;
+    width: 100%;
+  }
 }
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
   bottom: 12px;
@@ -226,16 +269,21 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
   width: 40%;
 }
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
+    width: 500px;
+  }
+}
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
   /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
-  width: 50%;
+  width: 550px;
 }
 
 /*Fin sectionDos*/
@@ -260,9 +308,15 @@
   flex-wrap: wrap;
   /*Inicio del los contenedores*/
 }
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionTres {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 .sectionTres .sectionTres__contenedor {
   background-color: #f29985;
-  width: 20%;
+  width: 300px;
   height: 400px;
   border-radius: 15%;
   display: flex;
@@ -458,6 +512,43 @@
 /*Fin maquetacion desktop*/
 /*----------------------------------------------------------------------*/
 /*Inicio maquetacion index medianas*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+  .grid-container .header {
+    grid-area: header;
+    background-color: #56beb6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .grid-container .sectionUno {
+    grid-area: sectionUno;
+    width: 100%;
+  }
+  .grid-container .sectionDos {
+    grid-area: sectionDos;
+    width: 100%;
+  }
+  .grid-container .sectionTres {
+    grid-area: sectionTres;
+    width: 100%;
+  }
+  .grid-container .sectionCuatro {
+    grid-area: sectionCuatro;
+    width: 100%;
+  }
+  .grid-container .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
 /*Fin maquetacion index medianas*/
 /*---------------------------------------------------------------*/
 /*Inicio maquetacion del Nosotros*/
