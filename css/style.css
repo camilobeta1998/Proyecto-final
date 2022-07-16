@@ -108,7 +108,7 @@
 @media only screen and (max-width: 480px) {
   .grid-container {
     display: grid;
-    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-rows: 90px 300px 480px 1250px 400px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
   }
@@ -279,6 +279,8 @@
   flex-wrap: wrap;
 }
 .sectionUno .sectionUno__contenedor1 p {
+  /*adaptacion del parrafo de la sectionUno a pantalla mediana*/
+  /*adaptacion del parrafo  de la sectionUno a mobile*/
   color: white;
   width: 50%;
 }
@@ -332,16 +334,28 @@
 }
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
   width: 40%;
+  /*adaptacion del video a pantalla mediana*/
+  /*apaptacion del video a mobile*/
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
     width: 500px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
+    width: 350px;
+  }
+}
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
   /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
   width: 550px;
+}
+@media only screen and (max-width: 480px) {
+  .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
+    width: 350px;
+  }
 }
 
 /*Fin sectionDos*/
@@ -625,7 +639,7 @@
 @media only screen and (max-width: 480px) {
   .grid-container {
     display: grid;
-    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-rows: 90px 300px 480px 1250px 400px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
   }

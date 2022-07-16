@@ -23,10 +23,11 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     p {
+      /*adaptacion del parrafo de la sectionUno a pantalla mediana*/
       @media only screen and (min-width: 481px) and (max-width: 960px) {
         width: 100%;
       }
-
+      /*adaptacion del parrafo  de la sectionUno a mobile*/
       @media only screen and (max-width: 480px) {
         width: 95%;
         font-size: 15px;

@@ -15,14 +15,22 @@
     align-items: center;
     .sectionDos__contenedor1__video {
       width: 40%;
+      /*adaptacion del video a pantalla mediana*/
       @media only screen and (min-width: 481px) and (max-width: 960px) {
         width: 500px;
+      }
+      /*apaptacion del video a mobile*/
+      @media only screen and (max-width: 480px) {
+        width: 350px;
       }
     }
     .sectionDos__contenedor2 {
       /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
       @include primer-mixin($color-letras);
       width: 550px;
+      @media only screen and (max-width: 480px) {
+        width: 350px;
+      }
     }
   }
 } /*Fin sectionDos*/
