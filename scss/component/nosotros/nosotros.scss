@@ -108,4 +108,69 @@
       }
     }
   }
+  /*Fin estilos sectionDos de Nosotros*/
+
+  /*-----------------------------------------------------------------------*/
+
+  /*inicio estilos sectionTres de Nosotros*/
+  .sectionTresNosotros {
+    background-color: $bg-color-sectionTres-nosotros;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .sectionTresNosotros__contenedor1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      div {
+        &:hover {
+          transform: scale(1.1);
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $bg-cajitas;
+        width: 700px;
+        height: 240px;
+        border-radius: 25px;
+        box-shadow: 10px 5px 10px $shadow;
+        h2 {
+          color: $color-letras;
+        }
+        p {
+          @media only screen and (min-width: 481px) and (max-width: 960px) {
+            width: 80%;
+          }
+          color: $color-letras;
+          width: 650px;
+        }
+        /*Pantalla mediana de la sectionTres de nosotros*/
+        @media only screen and (min-width: 481px) and (max-width: 960px) {
+          width: 80%;
+          height: 350px;
+        }
+      }
+    }
+    .sectionTresNosotros__contenedor2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      h2 {
+        color: $color-letras;
+      }
+      p {
+        color: $color-letras;
+        width: 95%;
+      }
+    }
+    .cajita2 {
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        position: relative;
+        top: 25px;
+      }
+    }
+  }
 }
