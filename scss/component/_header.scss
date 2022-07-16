@@ -14,7 +14,7 @@
   .navbar {
     /*aqui  mande a llamar al mapa*/
     background-color: map-get($mapa, color-header-con-mapa);
-    width: 100%;
+    width: 95%;
     .container-fluid {
       .navbar-brand {
         .logo {

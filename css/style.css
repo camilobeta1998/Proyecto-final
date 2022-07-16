@@ -3,6 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
@@ -16,6 +27,7 @@
 .grid-container {
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
 }
 .grid-container .header {
@@ -56,6 +68,7 @@
   .grid-container {
     display: grid;
     grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
   }
   .grid-container .header {
@@ -91,7 +104,47 @@
 }
 /*Fin maquetacion index medianas*/
 /*---------------------------------------------------------------*/
-/*Inicio maquetacion del Nosotros*/
+/*Inicio maquetacion index mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+  .grid-container .header {
+    grid-area: header;
+    background-color: #56beb6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .grid-container .sectionUno {
+    grid-area: sectionUno;
+    width: 100%;
+  }
+  .grid-container .sectionDos {
+    grid-area: sectionDos;
+    width: 100%;
+  }
+  .grid-container .sectionTres {
+    grid-area: sectionTres;
+    width: 100%;
+  }
+  .grid-container .sectionCuatro {
+    grid-area: sectionCuatro;
+    width: 100%;
+  }
+  .grid-container .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
+/*---------------------------------------------------------------*/
+/*Inicio maquetacion del Nosotros desktop*/
 .grid-containerNosotros {
   display: grid;
   grid-template-rows: 90px 600px 500px 500px 400px;
@@ -165,7 +218,7 @@
 .header .navbar {
   /*aqui  mande a llamar al mapa*/
   background-color: #56beb6;
-  width: 100%;
+  width: 95%;
 }
 .header .navbar .container-fluid .navbar-brand .logo {
   width: 70px;
@@ -231,8 +284,13 @@
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .sectionUno .sectionUno__contenedor1 p {
-    color: white;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sectionUno .sectionUno__contenedor1 p {
+    width: 95%;
+    font-size: 15px;
   }
 }
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
@@ -466,7 +524,17 @@
 
 /*Fin estilos home*/
 /*----------------------------------------------------*/
-/*importare las fueentes que estan en maquetacion*/
+/*importare las fueentes que estan en maquetacion*/ /*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
 * {
   padding: 0;
   margin: 0;
@@ -476,6 +544,7 @@
 .grid-container {
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
 }
 .grid-container .header {
@@ -516,6 +585,7 @@
   .grid-container {
     display: grid;
     grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
   }
   .grid-container .header {
@@ -551,7 +621,47 @@
 }
 /*Fin maquetacion index medianas*/
 /*---------------------------------------------------------------*/
-/*Inicio maquetacion del Nosotros*/
+/*Inicio maquetacion index mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+  .grid-container .header {
+    grid-area: header;
+    background-color: #56beb6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .grid-container .sectionUno {
+    grid-area: sectionUno;
+    width: 100%;
+  }
+  .grid-container .sectionDos {
+    grid-area: sectionDos;
+    width: 100%;
+  }
+  .grid-container .sectionTres {
+    grid-area: sectionTres;
+    width: 100%;
+  }
+  .grid-container .sectionCuatro {
+    grid-area: sectionCuatro;
+    width: 100%;
+  }
+  .grid-container .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
+/*---------------------------------------------------------------*/
+/*Inicio maquetacion del Nosotros desktop*/
 .grid-containerNosotros {
   display: grid;
   grid-template-rows: 90px 600px 500px 500px 400px;

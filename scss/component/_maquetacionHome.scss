@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
+@import "../bases/variables.scss";
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +13,7 @@
 .grid-container {
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-columns: 100%;
   grid-template-areas:
     "header"
     "sectionUno"
@@ -21,7 +23,7 @@
     "footer";
   .header {
     grid-area: header;
-    background-color: #56beb6;
+    background-color: $color-header;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -64,6 +66,7 @@
   .grid-container {
     display: grid;
     grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
     grid-template-areas:
       "header"
       "sectionUno"
@@ -73,7 +76,7 @@
       "footer";
     .header {
       grid-area: header;
-      background-color: #56beb6;
+      background-color: $color-header;
       width: 100%;
       display: flex;
       flex-direction: row;
@@ -111,7 +114,59 @@
 
 /*---------------------------------------------------------------*/
 
-/*Inicio maquetacion del Nosotros*/
+/*Inicio maquetacion index mobile*/
+
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1550px 400px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sectionUno"
+      "sectionDos"
+      "sectionTres"
+      "sectionCuatro"
+      "footer";
+    .header {
+      grid-area: header;
+      background-color: $color-header;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .sectionUno {
+      grid-area: sectionUno;
+      width: 100%;
+    }
+    .sectionDos {
+      grid-area: sectionDos;
+      width: 100%;
+    }
+
+    .sectionTres {
+      grid-area: sectionTres;
+      width: 100%;
+    }
+
+    .sectionCuatro {
+      grid-area: sectionCuatro;
+      width: 100%;
+    }
+
+    .pie {
+      grid-area: footer;
+      width: 100%;
+    }
+  }
+}
+
+/*---------------------------------------------------------------*/
+
+/*Inicio maquetacion del Nosotros desktop*/
 
 .grid-containerNosotros {
   display: grid;
@@ -127,7 +182,7 @@
 
 .header {
   grid-area: header;
-  background-color: #56beb6;
+  background-color: $color-header;
   width: 100%;
   display: flex;
   flex-direction: row;
