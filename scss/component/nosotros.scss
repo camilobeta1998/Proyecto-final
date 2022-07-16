@@ -1,9 +1,11 @@
 /*importare las fueentes que estan en maquetacion*/
 @import "../component/maquetacionHome";
+@import "../bases/variables.scss";
 
-/*Inicio estilos de Nos0tros*/
+/*Inicio estilos de Nosotros*/
 
 .grid-containerNosotros {
+  /*Inicio  estilos sectionUno de nosotros*/
   .sectionUnoNosotros {
     img {
       rotate: 5px;
@@ -16,7 +18,7 @@
       position: absolute;
       top: 400px;
       left: 20px;
-      color: white;
+      color: $color-letras;
       text-shadow: 4px 4px 4px black;
     }
     .sectionUnoNosotros__parrafo2 {
@@ -24,9 +26,17 @@
       position: absolute;
       top: 430px;
       left: 20px;
-      color: white;
-      font-family: "Anton", sans-serif;
+      color: $color-letras;
+      font-family: $font;
       text-shadow: 7px 7px 7px black;
     }
+  }
+  /*Fin estilos de la sectionUno de nosotros*/
+
+  /*-----------------------------------------------*/
+
+  /*Inicio estilos sectionDos de nosotros*/
+
+  .sectionDosNosotros {
   }
 }

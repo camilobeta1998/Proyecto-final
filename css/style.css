@@ -12,14 +12,13 @@
   margin: 0;
 }
 
-/*Inicio maquetacion index*/
+/*Inicio maquetacion index desktop*/
 .grid-container {
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 400px 350px;
   grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
 }
-
-.header {
+.grid-container .header {
   grid-area: header;
   background-color: #56beb6;
   width: 100%;
@@ -29,38 +28,36 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
-.sectionUno {
+.grid-container .sectionUno {
   grid-area: sectionUno;
   width: 100%;
 }
-
-.sectionDos {
+.grid-container .sectionDos {
   grid-area: sectionDos;
   width: 100%;
 }
-
-.sectionTres {
+.grid-container .sectionTres {
   grid-area: sectionTres;
   width: 100%;
 }
-
-.sectionCuatro {
+.grid-container .sectionCuatro {
   grid-area: sectionCuatro;
   width: 100%;
 }
-
-.pie {
+.grid-container .pie {
   grid-area: footer;
   width: 100%;
 }
 
-/*Fin maquetacion*/
+/*Fin maquetacion desktop*/
 /*----------------------------------------------------------------------*/
+/*Inicio maquetacion index medianas*/
+/*Fin maquetacion index medianas*/
+/*---------------------------------------------------------------*/
 /*Inicio maquetacion del Nosotros*/
 .grid-containerNosotros {
   display: grid;
-  grid-template-rows: 90px 600px 800px 500px 400px;
+  grid-template-rows: 90px 600px 500px 500px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
 }
@@ -84,7 +81,6 @@
 .sectionDosNosotros {
   grid-area: sectionDosNosotros;
   width: 100%;
-  border: solid 4px blue;
 }
 
 .sectionTresNosotros {
@@ -416,220 +412,19 @@
 
 /*Fin estilos home*/
 /*----------------------------------------------------*/
-.grid-container {
-  /*Inicio maquetacion del index en vista mobile*/
-  /*aqui aplicaremos media querys para mobile*/
-}
-@media only screen and (max-width: 480px) {
-  .grid-container {
-    display: grid;
-    grid-template-rows: 60px 180px 700px 1000px 400px 370px;
-    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
-    /*inicio estilos del header*/
-    /*Fin de estilos del header*/
-    /*---------------------------------------------------------------------------------*/
-    /*inicio estilos de la sectionUno del home*/
-    /*Fin estilos sectionUno del home*/
-    /*Inicio sectionDos del home*/
-    /*fin estilos de la sectionDos del home*/
-    /*inicio estilos de la sectionTres del home*/
-  }
-  .grid-container .header {
-    grid-area: header;
-    background-color: #56beb6;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .grid-container .header .header__logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 15%;
-  }
-  .grid-container .sectionUno {
-    grid-area: sectionUno;
-    width: 100%;
-  }
-  .grid-container .sectionUno img {
-    width: 100%;
-    height: 100%;
-  }
-  .grid-container .sectionUno .sectionUno__contenedor1 {
-    top: 2%;
-    left: 1%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-  .grid-container .sectionUno .sectionUno__contenedor1 p {
-    width: 99%;
-    font-size: 14px;
-  }
-  .grid-container .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
-    position: relative;
-    padding: 5px 10px;
-    width: fit-content;
-    text-decoration: none;
-  }
-  .grid-container .sectionDos {
-    grid-area: sectionDos;
-    width: 100%;
-  }
-  .grid-container .sectionDos .sectionDos__contenedor1 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .grid-container .sectionDos .sectionDos__contenedor1 p {
-    color: white;
-    width: 90%;
-  }
-  .grid-container .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
-    width: 320px;
-  }
-  .grid-container .sectionTres {
-    grid-area: sectionTres;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    /*Fin de los estilos de la sectionTres del home*/
-    /*Inicio de los estilos de la sectionCuatro del home*/
-    /*Fin de los estilos de la sectionCuatro del home*/
-    /*Inicio de los estilos del footer*/
-    /*Fin de los estilos del footer*/
-  }
-  .grid-container .sectionTres .sectionTres__contenedor {
-    width: 60%;
-    height: 300px;
-    border-radius: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor img {
-    width: 80%;
-    border-radius: 15%;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor p {
-    position: relative;
-    bottom: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor .sectionTres__david {
-    position: relative;
-    left: 1px;
-    text-align: center;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor .sectionTres__div3__frase3 {
-    width: 80%;
-    text-align: center;
-  }
-  .grid-container .sectionTres .sectionCuatro {
-    grid-area: sectionCuatro;
-    width: 100%;
-  }
-  .grid-container .sectionTres .pie {
-    grid-area: footer;
-    width: 100%;
-  }
-}
-
-/*Inicio estilos home para pantallas medianas del home*/
-@media only screen and (min-width: 481px) and (max-width: 960px) {
-  .grid-container {
-    /*Inicio maquetacion index*/
-    display: grid;
-    grid-template-rows: 90px 300px 800px 1000px 400px 350px;
-    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
-  }
-  .grid-container .sectionUno .sectionUno__contenedor1 p {
-    width: 100%;
-    font-size: 14px;
-    color: white;
-  }
-  .grid-container .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
-    position: relative;
-    color: white;
-    padding: 5px 10px;
-    width: fit-content;
-    text-decoration: none;
-  }
-  .grid-container .sectionDos .sectionDos__contenedor1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: centert;
-    align-items: center;
-  }
-  .grid-container .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
-    width: 90%;
-  }
-  .grid-container .sectionTres {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor {
-    width: 250px;
-    height: 300px;
-    border-radius: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 10px 5px 10px #56beb6;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor .sectionTres__david {
-    text-align: center;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor img {
-    width: 80%;
-    border-radius: 15%;
-    position: relative;
-    top: 10px;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor .nombre {
-    position: relative;
-    top: 10px;
-    font-family: "Roboto", sans-serif;
-  }
-  .grid-container .sectionTres .sectionTres__contenedor .otro {
-    width: 80%;
-    position: relative;
-    bottom: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-}
 /*importare las fueentes que estan en maquetacion*/
 * {
   padding: 0;
   margin: 0;
 }
 
-/*Inicio maquetacion index*/
+/*Inicio maquetacion index desktop*/
 .grid-container {
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 400px 350px;
   grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
 }
-
-.header {
+.grid-container .header {
   grid-area: header;
   background-color: #56beb6;
   width: 100%;
@@ -639,38 +434,36 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
-.sectionUno {
+.grid-container .sectionUno {
   grid-area: sectionUno;
   width: 100%;
 }
-
-.sectionDos {
+.grid-container .sectionDos {
   grid-area: sectionDos;
   width: 100%;
 }
-
-.sectionTres {
+.grid-container .sectionTres {
   grid-area: sectionTres;
   width: 100%;
 }
-
-.sectionCuatro {
+.grid-container .sectionCuatro {
   grid-area: sectionCuatro;
   width: 100%;
 }
-
-.pie {
+.grid-container .pie {
   grid-area: footer;
   width: 100%;
 }
 
-/*Fin maquetacion*/
+/*Fin maquetacion desktop*/
 /*----------------------------------------------------------------------*/
+/*Inicio maquetacion index medianas*/
+/*Fin maquetacion index medianas*/
+/*---------------------------------------------------------------*/
 /*Inicio maquetacion del Nosotros*/
 .grid-containerNosotros {
   display: grid;
-  grid-template-rows: 90px 600px 800px 500px 400px;
+  grid-template-rows: 90px 600px 500px 500px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
 }
@@ -694,7 +487,6 @@
 .sectionDosNosotros {
   grid-area: sectionDosNosotros;
   width: 100%;
-  border: solid 4px blue;
 }
 
 .sectionTresNosotros {
@@ -709,7 +501,24 @@
 }
 
 /*Fin maquetacion*/
-/*Inicio estilos de Nos0tros*/
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
+/*Inicio estilos de Nosotros*/
+.grid-containerNosotros {
+  /*Inicio  estilos sectionUno de nosotros*/
+  /*Fin estilos de la sectionUno de nosotros*/
+  /*-----------------------------------------------*/
+  /*Inicio estilos sectionDos de nosotros*/
+}
 .grid-containerNosotros .sectionUnoNosotros img {
   rotate: 5px;
   width: 100%;
