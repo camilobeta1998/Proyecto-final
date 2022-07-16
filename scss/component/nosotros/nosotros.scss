@@ -123,30 +123,32 @@
     background-color: $bg-color-sectionTres-nosotros;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+
     .sectionTresNosotros__contenedor1 {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       flex-wrap: wrap;
       height: 800px;
-
+      position: relative;
+      top: 55px;
       div {
+        border: solid 2px black;
         &:hover {
           transform: scale(1.1);
         }
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         background-color: $bg-cajitas;
         width: 700px;
         height: 240px;
         border-radius: 25px;
         box-shadow: 10px 5px 10px $shadow;
-        /*estilo mobile de las cajitas de la sectionTres de Nosotros*/
         @media only screen and (max-width: 480px) {
           width: 90%;
-          height: 340px;
+          height: 350px;
         }
         h2 {
           color: $color-letras;
@@ -171,22 +173,24 @@
     .sectionTresNosotros__contenedor2 {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       position: relative;
+      bottom: 150px;
+      /*Pantalla mediana de la sectionTres de nosotros*/
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        top: 90px;
+      }
+      /*pantalla mobile*/
+      @media only screen and(max-width: 480px) {
+        top: 40px;
+      }
       h2 {
         color: $color-letras;
-        position: relative;
-        bottom: 45px;
       }
       p {
         color: $color-letras;
         width: 95%;
-        @media only screen and (max-width: 480px) {
-          width: 90%;
-          position: relative;
-          bottom: 30px;
-        }
       }
     }
     .cajita2 {
