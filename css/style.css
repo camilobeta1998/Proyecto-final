@@ -14,6 +14,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
@@ -87,7 +88,7 @@
 /*Inicio maquetacion del Nosotros desktop*/
 .grid-containerNosotros {
   display: grid;
-  grid-template-rows: 90px 600px 500px 500px 400px;
+  grid-template-rows: 90px 600px 600px 500px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
 }
@@ -125,7 +126,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 350px 500px 500px 400px;
+    grid-template-rows: 90px 350px 600px 500px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -136,12 +137,9 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 500px 500px 400px;
+    grid-template-rows: 90px 250px 600px 500px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
-  }
-  .grid-containerNosotros .sectionUnoNosotros {
-    border: solid 2px black;
   }
 }
 /*En esta sección estarán las variables*/
@@ -155,11 +153,11 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*Importare el mapa*/
 /*usare este mapo en el header*/
 /*Estilos header*/
 .header {
-  position: fixed;
   background-color: #56beb6;
   z-index: 1;
   /*Fin estilos del navbar del header*/
@@ -167,7 +165,7 @@
 .header .navbar {
   /*aqui  mande a llamar al mapa*/
   background-color: #56beb6;
-  width: 95%;
+  width: 100%;
 }
 .header .navbar .container-fluid .navbar-brand .logo {
   width: 70px;
@@ -201,6 +199,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*aqui se importará el extend para los botones*/
 /*Voy a hacer un extend para todos los botones de mi page Home*/
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
@@ -268,6 +267,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*Inicio sectionDos*/
 .sectionDos {
   background-color: #56beb6;
@@ -319,6 +319,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*Inicio estilos sectionTres*/
 .sectionTres {
   background-color: #f2cf66;
@@ -380,6 +381,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*Inicio estilos sectionCuatro*/
 .sectionCuatro {
   background-color: #f29985;
@@ -430,6 +432,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*aqui importare el extend para los botones*/
 /*Voy a hacer un extend para todos los botones de mi page Home*/
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
@@ -498,6 +501,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 * {
   padding: 0;
   margin: 0;
@@ -567,7 +571,7 @@
 /*Inicio maquetacion del Nosotros desktop*/
 .grid-containerNosotros {
   display: grid;
-  grid-template-rows: 90px 600px 500px 500px 400px;
+  grid-template-rows: 90px 600px 600px 500px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
 }
@@ -605,7 +609,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 350px 500px 500px 400px;
+    grid-template-rows: 90px 350px 600px 500px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -616,12 +620,9 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 500px 500px 400px;
+    grid-template-rows: 90px 250px 600px 500px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
-  }
-  .grid-containerNosotros .sectionUnoNosotros {
-    border: solid 2px black;
   }
 }
 /*En esta sección estarán las variables*/
@@ -635,6 +636,7 @@
 /*Fin variables de la sectionTres*/
 /*Inicio variables de la sectionCuatro*/
 /*Fin estilos del footer*/
+/*variable Nosotros*/
 /*Inicio estilos de Nosotros*/
 .grid-containerNosotros {
   /*Inicio  estilos sectionUno de nosotros*/
@@ -694,6 +696,64 @@
   .grid-containerNosotros .sectionUnoNosotros .sectionUnoNosotros__parrafo2 {
     top: 260px;
     font-size: 50px;
+  }
+}
+.grid-containerNosotros .sectionDosNosotros {
+  background-color: #f29985;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor1 {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor1 video {
+  width: 600px;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor1 video {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor1 video {
+    width: 90%;
+  }
+}
+.grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+.grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 h1 {
+  color: white;
+  position: relative;
+  right: 15px;
+}
+.grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
+  color: white;
+  margin-left: 45px;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
+    position: relative;
+    right: 35px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
+    position: relative;
+    right: 35px;
   }
 }
 
