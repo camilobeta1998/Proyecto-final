@@ -179,3 +179,57 @@
       "footer";
   }
 }
+
+/*Fin maquetacion de nosotros mobile*/
+
+/*------------------------------------------------------------------*/
+
+/*inicio maquetacion de Sabores*/
+
+/*inicio maquetacion desktop de Sabores*/
+
+/*Inicio maquetacion index desktop*/
+.grid-containerSabores {
+  display: grid;
+  grid-template-rows: 90px 540px 400px 500px 500px 350px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "sectionUnoSabores"
+    "sectionDosSabores"
+    "sectionTresSabores"
+    "sectionCuatroSabores"
+    "footer";
+  .header {
+    grid-area: header;
+  }
+  .sectionUnoSabores {
+    grid-area: sectionUnoSabores;
+    width: 100%;
+    border: solid 2px blue;
+  }
+  .sectionDosSabores {
+    grid-area: sectionDosSabores;
+    width: 100%;
+    border: solid 2px green;
+  }
+
+  .sectionTresSabores {
+    grid-area: sectionTresSabores;
+    width: 100%;
+    border: solid 2px brown;
+  }
+
+  .sectionCuatroSabores {
+    grid-area: sectionCuatroSabores;
+    width: 100%;
+    border: solid 2px violet;
+  }
+
+  .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
+
+/*Fin maquetacion desktop*/
