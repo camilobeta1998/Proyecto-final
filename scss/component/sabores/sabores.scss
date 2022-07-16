@@ -19,8 +19,12 @@
       left: 2%;
       text-shadow: 4px 4px 4px black;
       @media only screen and (min-width: 481px) and (max-width: 960px) {
-        font-size: 100px;
-        top: 22%;
+        font-size: 120px;
+        top: 18%;
+      }
+      @media only screen and (max-width: 480px) {
+        font-size: 80px;
+        top: 16%;
       }
     }
     .nuestros {
@@ -29,6 +33,13 @@
       left: 2%;
       font-size: 100px;
       text-shadow: 4px 4px 4px black;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        font-size: 80px;
+      }
+      @media only screen and (max-width: 480px) {
+        font-size: 40px;
+        top: 12%;
+      }
     }
   }
 }

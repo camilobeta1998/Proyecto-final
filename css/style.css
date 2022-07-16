@@ -162,7 +162,6 @@
 .grid-containerSabores .sectionUnoSabores {
   grid-area: sectionUnoSabores;
   width: 100%;
-  border: solid 2px blue;
 }
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
@@ -191,6 +190,17 @@
   .grid-containerSabores {
     display: grid;
     grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
+/*Fin maquetacion mediana sabores*/
+/*-------------------------------------------------------*/
+/*inicio maquetacion mobile sabores*/
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 250px 400px 500px 500px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -694,7 +704,6 @@
 .grid-containerSabores .sectionUnoSabores {
   grid-area: sectionUnoSabores;
   width: 100%;
-  border: solid 2px blue;
 }
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
@@ -723,6 +732,17 @@
   .grid-containerSabores {
     display: grid;
     grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
+/*Fin maquetacion mediana sabores*/
+/*-------------------------------------------------------*/
+/*inicio maquetacion mobile sabores*/
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 250px 400px 500px 500px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -1113,7 +1133,6 @@
 .grid-containerSabores .sectionUnoSabores {
   grid-area: sectionUnoSabores;
   width: 100%;
-  border: solid 2px blue;
 }
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
@@ -1142,6 +1161,17 @@
   .grid-containerSabores {
     display: grid;
     grid-template-rows: 90px 300px 400px 500px 500px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
+/*Fin maquetacion mediana sabores*/
+/*-------------------------------------------------------*/
+/*inicio maquetacion mobile sabores*/
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 250px 400px 500px 500px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -1176,8 +1206,14 @@
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores .sectionUnoSabores .sabores {
-    font-size: 100px;
-    top: 22%;
+    font-size: 120px;
+    top: 18%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionUnoSabores .sabores {
+    font-size: 80px;
+    top: 16%;
   }
 }
 .grid-containerSabores .sectionUnoSabores .nuestros {
@@ -1186,6 +1222,17 @@
   left: 2%;
   font-size: 100px;
   text-shadow: 4px 4px 4px black;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores .sectionUnoSabores .nuestros {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionUnoSabores .nuestros {
+    font-size: 40px;
+    top: 12%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
