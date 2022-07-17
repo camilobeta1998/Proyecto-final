@@ -167,12 +167,10 @@
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
   width: 100%;
-  border: solid 2px green;
 }
 .grid-containerSabores .sectionTresSabores {
   grid-area: sectionTresSabores;
   width: 100%;
-  border: solid 2px brown;
 }
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
@@ -190,7 +188,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 500px 500px 350px;
+    grid-template-rows: 90px 300px 700px 750px 710px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -201,7 +199,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 500px 500px 350px;
+    grid-template-rows: 90px 250px 770px 620px 600px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -717,12 +715,10 @@
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
   width: 100%;
-  border: solid 2px green;
 }
 .grid-containerSabores .sectionTresSabores {
   grid-area: sectionTresSabores;
   width: 100%;
-  border: solid 2px brown;
 }
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
@@ -740,7 +736,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 500px 500px 350px;
+    grid-template-rows: 90px 300px 700px 750px 710px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -751,7 +747,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 500px 500px 350px;
+    grid-template-rows: 90px 250px 770px 620px 600px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -1149,12 +1145,10 @@
 .grid-containerSabores .sectionDosSabores {
   grid-area: sectionDosSabores;
   width: 100%;
-  border: solid 2px green;
 }
 .grid-containerSabores .sectionTresSabores {
   grid-area: sectionTresSabores;
   width: 100%;
-  border: solid 2px brown;
 }
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
@@ -1172,7 +1166,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 500px 500px 350px;
+    grid-template-rows: 90px 300px 700px 750px 710px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -1183,7 +1177,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 500px 500px 350px;
+    grid-template-rows: 90px 250px 770px 620px 600px 350px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
   }
@@ -1204,7 +1198,9 @@
 /*variables sabores*/
 .grid-containerSabores {
   /*inicio estilos sectionDos Sabores*/
-  /*Fin estilos sectionDos*/
+  /*Fin estilos sectionDos de sabores*/
+  /*Inicio sectionTres de sabores*/
+  /*Inicio sectionCuatro de Sabores*/
 }
 .grid-containerSabores .sectionUnoSabores img {
   width: 100%;
@@ -1314,6 +1310,140 @@
   .grid-containerSabores .texto__carrusel h1 {
     position: relative;
     bottom: 70px;
+  }
+}
+.grid-containerSabores .sectionTresSabores {
+  background-color: #f29985;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 {
+  width: 600px;
+}
+.grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 p {
+  color: white;
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 p {
+    width: 290px;
+    height: 240px;
+    position: relative;
+    left: 15px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 p {
+    width: 450px;
+    position: relative;
+    left: 15px;
+  }
+}
+.grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 h1 {
+  color: white;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor1 h1 {
+    text-align: center;
+  }
+}
+.grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor2 {
+  width: 650px;
+  height: 450px;
+}
+.grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor2 img {
+  width: 650px;
+  height: 450px;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor2 img {
+    width: 450px;
+    position: relative;
+    left: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionTresSabores .sectionTresSabores__contenedor2 img {
+    width: 290px;
+    height: 240px;
+    position: relative;
+    left: 25px;
+    top: 45px;
+  }
+}
+.grid-containerSabores .sectionCuatroSabores {
+  background-color: #f2cf66;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 {
+  width: 650px;
+}
+.grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 video {
+  width: 650px;
+  height: 450px;
+}
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 video {
+    width: 400px;
+    position: relative;
+    left: 45px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 video {
+    width: 350px;
+    position: relative;
+    bottom: 75px;
+    left: 10px;
+  }
+}
+.grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 {
+  width: 650px;
+  height: 250px;
+}
+.grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 h2 {
+  color: white;
+}
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 h2 {
+    width: 350px;
+    position: relative;
+    bottom: 155px;
+    left: 10px;
+    text-align: center;
+  }
+}
+.grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 p {
+  color: white;
+}
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 p {
+    position: relative;
+    left: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 p {
+    width: 350px;
+    position: relative;
+    bottom: 155px;
+    left: 10px;
   }
 }
 

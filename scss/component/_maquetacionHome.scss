@@ -210,13 +210,11 @@
   .sectionDosSabores {
     grid-area: sectionDosSabores;
     width: 100%;
-    border: solid 2px green;
   }
 
   .sectionTresSabores {
     grid-area: sectionTresSabores;
     width: 100%;
-    border: solid 2px brown;
   }
 
   .sectionCuatroSabores {
@@ -240,7 +238,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 500px 500px 350px;
+    grid-template-rows: 90px 300px 700px 750px 710px 350px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
@@ -261,7 +259,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 500px 500px 350px;
+    grid-template-rows: 90px 250px 770px 620px 600px 350px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"

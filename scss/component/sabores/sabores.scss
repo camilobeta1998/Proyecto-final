@@ -103,5 +103,120 @@
       }
     }
   }
-  /*Fin estilos sectionDos*/
+  /*Fin estilos sectionDos de sabores*/
+
+  /*Inicio sectionTres de sabores*/
+  .sectionTresSabores {
+    background-color: $bg-section4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .sectionTresSabores__contenedor1 {
+      width: 600px;
+      p {
+        color: $color-letras;
+        @media only screen and (max-width: 480px) {
+          width: 290px;
+          height: 240px;
+          position: relative;
+          left: 15px;
+        }
+        @media only screen and (min-width: 481px) and (max-width: 960px) {
+          width: 450px;
+          position: relative;
+          left: 15px;
+        }
+      }
+      h1 {
+        @media only screen and (min-width: 481px) and (max-width: 960px) {
+          text-align: center;
+        }
+        @media only screen and (max-width: 480px) {
+          text-align: center;
+        }
+        color: $color-letras;
+      }
+    }
+    .sectionTresSabores__contenedor2 {
+      width: 650px;
+      height: 450px;
+
+      img {
+        width: 650px;
+        height: 450px;
+        @media only screen and (min-width: 481px) and (max-width: 960px) {
+          width: 450px;
+          position: relative;
+          left: 15px;
+        }
+        @media only screen and (max-width: 480px) {
+          width: 290px;
+          height: 240px;
+          position: relative;
+          left: 25px;
+          top: 45px;
+        }
+      }
+    }
+  }
+
+  /*Inicio sectionCuatro de Sabores*/
+  .sectionCuatroSabores {
+    background-color: $bg-color-sectionCuatro-Sabores;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .sectionCuatroSabores__contenedor1 {
+      width: 650px;
+      video {
+        width: 650px;
+        height: 450px;
+        @media only screen and (min-width: 480px) and (max-width: 960px) {
+          width: 400px;
+          position: relative;
+          left: 45px;
+        }
+        @media only screen and (max-width: 480px) {
+          width: 350px;
+          position: relative;
+          bottom: 75px;
+          left: 10px;
+        }
+      }
+    }
+    .sectionCuatroSabores__contenedor2 {
+      width: 650px;
+      height: 250px;
+      h2 {
+        color: $color-letras;
+        @media only screen and (min-width: 480px) and (max-width: 960px) {
+          text-align: center;
+        }
+        @media only screen and (max-width: 480px) {
+          width: 350px;
+          position: relative;
+          bottom: 155px;
+          left: 10px;
+          text-align: center;
+        }
+      }
+      p {
+        color: $color-letras;
+        @media only screen and (min-width: 480px) and (max-width: 960px) {
+          position: relative;
+          left: 10px;
+        }
+        @media only screen and (max-width: 480px) {
+          width: 350px;
+          position: relative;
+          bottom: 155px;
+          left: 10px;
+        }
+      }
+    }
+  }
 }
