@@ -42,4 +42,66 @@
       }
     }
   }
+
+  /*inicio estilos sectionDos Sabores*/
+  .sectionDosSabores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-color-sectionDos-Sabores;
+    flex-wrap: wrap;
+
+    .carousel {
+      width: 600px;
+      height: 400px;
+
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        width: 400px;
+      }
+
+      @media only screen and (max-width: 480px) {
+        width: 320px;
+        height: 375px;
+      }
+      .carousel-indicators {
+      }
+      div {
+        img {
+          height: 400px;
+          width: 600px;
+          @media only screen and (max-width: 480px) {
+            width: 375px;
+            height: 375px;
+          }
+        }
+      }
+    }
+  }
+  .texto__carrusel {
+    p {
+      width: 600px;
+      height: 150px;
+      color: $color-letras;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        width: 450px;
+      }
+      @media only screen and (max-width: 480px) {
+        width: 320px;
+        position: relative;
+        bottom: 70px;
+      }
+    }
+    h1 {
+      color: $color-letras;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        text-align: center;
+      }
+      @media screen and (max-width: 480px) {
+        position: relative;
+        bottom: 70px;
+      }
+    }
+  }
+  /*Fin estilos sectionDos*/
 }
