@@ -1,0 +1,51 @@
+@import "../../bases/variables.scss";
+@import "../maquetacionHome";
+
+.sectionUnoContactanos {
+  div {
+    img {
+      width: 100%;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        height: 320px;
+      }
+      @media only screen and (max-width: 480px) {
+        height: 220px;
+      }
+    }
+    .gustan {
+      font-family: $font;
+      font-size: 105px;
+      position: relative;
+      bottom: 245px;
+      left: 12px;
+      color: $color-letras;
+      text-shadow: 4px 4px 4px black;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        font-size: 38px;
+        bottom: 155px;
+      }
+      @media only screen and (max-width: 480px) {
+        font-size: 30px;
+        bottom: 110px;
+        left: 2px;
+      }
+    }
+    .contactanos {
+      color: $color-letras;
+      position: relative;
+      font-size: 55px;
+      bottom: 195px;
+      left: 15px;
+      text-shadow: 4px 4px 4px black;
+      @media only screen and (min-width: 481px) and (max-width: 960px) {
+        font-size: 38px;
+        bottom: 135px;
+      }
+      @media only screen and (max-width: 480px) {
+        font-size: 30px;
+        bottom: 80px;
+        left: 5px;
+      }
+    }
+  }
+}

@@ -24,6 +24,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -175,7 +179,6 @@
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
   width: 100%;
-  border: solid 2px violet;
 }
 .grid-containerSabores .pie {
   grid-area: footer;
@@ -205,6 +208,59 @@
   }
 }
 /*Fin maquetacion mobile sabores*/
+/*--------------------------------------------------------------------------------------*/
+/*Inicio maquetacion Contactanos desktop*/
+.grid-containerContactanos {
+  display: grid;
+  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+}
+
+.sectionUnoContactanos {
+  grid-area: sectionUnoContactanos;
+  width: 100%;
+}
+
+.sectionDosContactanos {
+  grid-area: sectionDosContactanos;
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion de Contactanos Sabores Desktop*/
+/*---------------------------------------------*/
+/*Inicio maquetacion de Contactanos en pantalla mediana*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 320px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
+/*Fin maquetacion de Contactanos en pantalla mediana*/
+/*----------------------------------------------------------*/
+/*Inicio maquetacion de contactanos en mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 220px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -723,7 +779,6 @@
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
   width: 100%;
-  border: solid 2px violet;
 }
 .grid-containerSabores .pie {
   grid-area: footer;
@@ -753,6 +808,59 @@
   }
 }
 /*Fin maquetacion mobile sabores*/
+/*--------------------------------------------------------------------------------------*/
+/*Inicio maquetacion Contactanos desktop*/
+.grid-containerContactanos {
+  display: grid;
+  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+}
+
+.sectionUnoContactanos {
+  grid-area: sectionUnoContactanos;
+  width: 100%;
+}
+
+.sectionDosContactanos {
+  grid-area: sectionDosContactanos;
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion de Contactanos Sabores Desktop*/
+/*---------------------------------------------*/
+/*Inicio maquetacion de Contactanos en pantalla mediana*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 320px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
+/*Fin maquetacion de Contactanos en pantalla mediana*/
+/*----------------------------------------------------------*/
+/*Inicio maquetacion de contactanos en mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 220px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -1153,7 +1261,6 @@
 .grid-containerSabores .sectionCuatroSabores {
   grid-area: sectionCuatroSabores;
   width: 100%;
-  border: solid 2px violet;
 }
 .grid-containerSabores .pie {
   grid-area: footer;
@@ -1183,6 +1290,59 @@
   }
 }
 /*Fin maquetacion mobile sabores*/
+/*--------------------------------------------------------------------------------------*/
+/*Inicio maquetacion Contactanos desktop*/
+.grid-containerContactanos {
+  display: grid;
+  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+}
+
+.sectionUnoContactanos {
+  grid-area: sectionUnoContactanos;
+  width: 100%;
+}
+
+.sectionDosContactanos {
+  grid-area: sectionDosContactanos;
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion de Contactanos Sabores Desktop*/
+/*---------------------------------------------*/
+/*Inicio maquetacion de Contactanos en pantalla mediana*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 320px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
+/*Fin maquetacion de Contactanos en pantalla mediana*/
+/*----------------------------------------------------------*/
+/*Inicio maquetacion de contactanos en mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 220px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -1331,7 +1491,7 @@
     width: 290px;
     height: 240px;
     position: relative;
-    left: 15px;
+    left: 50px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
@@ -1374,7 +1534,7 @@
     width: 290px;
     height: 240px;
     position: relative;
-    left: 25px;
+    left: 50px;
     top: 45px;
   }
 }
@@ -1402,10 +1562,10 @@
 }
 @media only screen and (max-width: 480px) {
   .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 video {
-    width: 350px;
+    width: 305px;
     position: relative;
     bottom: 75px;
-    left: 10px;
+    left: 50px;
   }
 }
 .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 {
@@ -1424,7 +1584,7 @@
   .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 h2 {
     width: 350px;
     position: relative;
-    bottom: 155px;
+    bottom: 200px;
     left: 10px;
     text-align: center;
   }
@@ -1440,10 +1600,326 @@
 }
 @media only screen and (max-width: 480px) {
   .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 p {
-    width: 350px;
+    width: 305px;
     position: relative;
+    bottom: 205px;
+    left: 50px;
+  }
+}
+
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
+/*variable Nosotros*/
+/*variables sabores*/
+/*En esta sección estarán las variables*/
+/*variables del header*/
+/*Fin variables del header*/
+/*Inicio variables de la sectionUno*/
+/*Fin variables de la sectionUno*/
+/*Inicio variables de la sectionDos*/
+/*Fin de las variables de la sectionDos*/
+/*Inicio variables de la sectionTres*/
+/*Fin variables de la sectionTres*/
+/*Inicio variables de la sectionCuatro*/
+/*Fin estilos del footer*/
+/*variable Nosotros*/
+/*variables sabores*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Inicio maquetacion index desktop*/
+.grid-container {
+  display: grid;
+  grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+}
+.grid-container .header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.grid-container .sectionUno {
+  grid-area: sectionUno;
+  width: 100%;
+}
+.grid-container .sectionDos {
+  grid-area: sectionDos;
+  width: 100%;
+}
+.grid-container .sectionTres {
+  grid-area: sectionTres;
+  width: 100%;
+}
+.grid-container .sectionCuatro {
+  grid-area: sectionCuatro;
+  width: 100%;
+}
+.grid-container .pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion desktop*/
+/*----------------------------------------------------------------------*/
+/*Inicio maquetacion index medianas*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 600px 1300px 400px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+}
+/*Fin maquetacion index medianas*/
+/*---------------------------------------------------------------*/
+/*Inicio maquetacion index mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 90px 300px 480px 1300px 400px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUno" "sectionDos" "sectionTres" "sectionCuatro" "footer";
+  }
+}
+/*---------------------------------------------------------------*/
+/*Inicio maquetacion del Nosotros desktop*/
+.grid-containerNosotros {
+  display: grid;
+  grid-template-rows: 90px 600px 600px 700px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+}
+
+.sectionUnoNosotros {
+  grid-area: sectionUnoNosotros;
+  width: 100%;
+}
+
+.sectionDosNosotros {
+  grid-area: sectionDosNosotros;
+  width: 100%;
+}
+
+.sectionTresNosotros {
+  grid-area: sectionTresNosotros;
+  width: 100%;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion Nosotros desktop*/
+/*------------------------------------------------------------*/
+/*Inicio maquetacion Nosotros pantalla mediana*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerNosotros {
+    display: grid;
+    grid-template-rows: 90px 350px 600px 1200px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
+  }
+}
+/*Fin maquetacion pantalla mediana de nosotros*/
+/*-------------------------------------------------------------*/
+/*Inicio maquetacion de nosotros en mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-containerNosotros {
+    display: grid;
+    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
+  }
+}
+/*Fin maquetacion de nosotros mobile*/
+/*------------------------------------------------------------------*/
+/*inicio maquetacion de Sabores*/
+/*inicio maquetacion desktop de Sabores*/
+/*Inicio maquetacion index desktop*/
+.grid-containerSabores {
+  display: grid;
+  grid-template-rows: 90px 540px 500px 500px 500px 350px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+}
+.grid-containerSabores .header {
+  grid-area: header;
+}
+.grid-containerSabores .sectionUnoSabores {
+  grid-area: sectionUnoSabores;
+  width: 100%;
+}
+.grid-containerSabores .sectionDosSabores {
+  grid-area: sectionDosSabores;
+  width: 100%;
+}
+.grid-containerSabores .sectionTresSabores {
+  grid-area: sectionTresSabores;
+  width: 100%;
+}
+.grid-containerSabores .sectionCuatroSabores {
+  grid-area: sectionCuatroSabores;
+  width: 100%;
+}
+.grid-containerSabores .pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion desktop Sabores*/
+/*--------------------------------------------------------*/
+/*Inicio maquetacion mediana Sabores */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 300px 700px 750px 710px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
+/*Fin maquetacion mediana sabores*/
+/*-------------------------------------------------------*/
+/*inicio maquetacion mobile sabores*/
+@media only screen and (max-width: 480px) {
+  .grid-containerSabores {
+    display: grid;
+    grid-template-rows: 90px 250px 770px 620px 600px 350px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoSabores" "sectionDosSabores" "sectionTresSabores" "sectionCuatroSabores" "footer";
+  }
+}
+/*Fin maquetacion mobile sabores*/
+/*--------------------------------------------------------------------------------------*/
+/*Inicio maquetacion Contactanos desktop*/
+.grid-containerContactanos {
+  display: grid;
+  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #56beb6;
+  width: 100%;
+}
+
+.sectionUnoContactanos {
+  grid-area: sectionUnoContactanos;
+  width: 100%;
+}
+
+.sectionDosContactanos {
+  grid-area: sectionDosContactanos;
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion de Contactanos Sabores Desktop*/
+/*---------------------------------------------*/
+/*Inicio maquetacion de Contactanos en pantalla mediana*/
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 320px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
+/*Fin maquetacion de Contactanos en pantalla mediana*/
+/*----------------------------------------------------------*/
+/*Inicio maquetacion de contactanos en mobile*/
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 220px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
+  }
+}
+.sectionUnoContactanos div img {
+  width: 100%;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionUnoContactanos div img {
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sectionUnoContactanos div img {
+    height: 220px;
+  }
+}
+.sectionUnoContactanos div .gustan {
+  font-family: "Anton", sans-serif;
+  font-size: 105px;
+  position: relative;
+  bottom: 245px;
+  left: 12px;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionUnoContactanos div .gustan {
+    font-size: 38px;
     bottom: 155px;
-    left: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sectionUnoContactanos div .gustan {
+    font-size: 30px;
+    bottom: 110px;
+    left: 2px;
+  }
+}
+.sectionUnoContactanos div .contactanos {
+  color: white;
+  position: relative;
+  font-size: 55px;
+  bottom: 195px;
+  left: 15px;
+  text-shadow: 4px 4px 4px black;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .sectionUnoContactanos div .contactanos {
+    font-size: 38px;
+    bottom: 135px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sectionUnoContactanos div .contactanos {
+    font-size: 30px;
+    bottom: 80px;
+    left: 5px;
   }
 }
 

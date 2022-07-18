@@ -220,7 +220,6 @@
   .sectionCuatroSabores {
     grid-area: sectionCuatroSabores;
     width: 100%;
-    border: solid 2px violet;
   }
 
   .pie {
@@ -272,3 +271,77 @@
 }
 
 /*Fin maquetacion mobile sabores*/
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Inicio maquetacion Contactanos desktop*/
+
+.grid-containerContactanos {
+  display: grid;
+  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "sectionUnoContactanos"
+    "sectionDosContactanos"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: $color-header;
+  width: 100%;
+}
+
+.sectionUnoContactanos {
+  grid-area: sectionUnoContactanos;
+  width: 100%;
+}
+
+.sectionDosContactanos {
+  grid-area: sectionDosContactanos;
+  width: 100%;
+  border: solid 2px blue;
+}
+
+.pie {
+  grid-area: footer;
+  width: 100%;
+}
+
+/*Fin maquetacion de Contactanos Sabores Desktop*/
+
+/*---------------------------------------------*/
+
+/*Inicio maquetacion de Contactanos en pantalla mediana*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 320px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sectionUnoContactanos"
+      "sectionDosContactanos"
+      "footer";
+  }
+}
+/*Fin maquetacion de Contactanos en pantalla mediana*/
+
+/*----------------------------------------------------------*/
+
+/*Inicio maquetacion de contactanos en mobile*/
+
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos {
+    display: grid;
+    grid-template-rows: 90px 220px 600px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sectionUnoContactanos"
+      "sectionDosContactanos"
+      "footer";
+  }
+}
