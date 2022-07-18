@@ -12,7 +12,7 @@
 /*Inicio maquetacion index desktop*/
 .grid-container {
   display: grid;
-  grid-template-rows: 90px 650px 400px 500px 400px 350px;
+  grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
   grid-template-areas:
     "header"
@@ -112,32 +112,31 @@
     "sectionDosNosotros"
     "sectionTresNosotros"
     "footer";
-}
+  .header {
+    grid-area: header;
+    background-color: $color-header;
+    width: 100%;
+  }
 
-.header {
-  grid-area: header;
-  background-color: $color-header;
-  width: 100%;
-}
+  .sectionUnoNosotros {
+    grid-area: sectionUnoNosotros;
+    width: 100%;
+  }
 
-.sectionUnoNosotros {
-  grid-area: sectionUnoNosotros;
-  width: 100%;
-}
+  .sectionDosNosotros {
+    grid-area: sectionDosNosotros;
+    width: 100%;
+  }
 
-.sectionDosNosotros {
-  grid-area: sectionDosNosotros;
-  width: 100%;
-}
+  .sectionTresNosotros {
+    grid-area: sectionTresNosotros;
+    width: 100%;
+  }
 
-.sectionTresNosotros {
-  grid-area: sectionTresNosotros;
-  width: 100%;
-}
-
-.pie {
-  grid-area: footer;
-  width: 100%;
+  .pie {
+    grid-area: footer;
+    width: 100%;
+  }
 }
 
 /*Fin maquetacion Nosotros desktop*/
@@ -191,7 +190,7 @@
 /*Inicio maquetacion index desktop*/
 .grid-containerSabores {
   display: grid;
-  grid-template-rows: 90px 540px 500px 500px 500px 350px;
+  grid-template-rows: 90px 540px 500px 500px 500px 400px;
   grid-template-columns: 100%;
   grid-template-areas:
     "header"
@@ -237,7 +236,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 750px 710px 350px;
+    grid-template-rows: 90px 300px 700px 750px 710px 400px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
@@ -258,7 +257,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 620px 600px 350px;
+    grid-template-rows: 90px 250px 770px 620px 600px 400px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
@@ -285,27 +284,26 @@
     "sectionUnoContactanos"
     "sectionDosContactanos"
     "footer";
-}
+  .header {
+    grid-area: header;
+    background-color: $color-header;
+    width: 100%;
+  }
 
-.header {
-  grid-area: header;
-  background-color: $color-header;
-  width: 100%;
-}
+  .sectionUnoContactanos {
+    grid-area: sectionUnoContactanos;
+    width: 100%;
+  }
 
-.sectionUnoContactanos {
-  grid-area: sectionUnoContactanos;
-  width: 100%;
-}
+  .sectionDosContactanos {
+    grid-area: sectionDosContactanos;
+    width: 100%;
+  }
 
-.sectionDosContactanos {
-  grid-area: sectionDosContactanos;
-  width: 100%;
-}
-
-.pie {
-  grid-area: footer;
-  width: 100%;
+  .pie {
+    grid-area: footer;
+    width: 100%;
+  }
 }
 
 /*Fin maquetacion de Contactanos Sabores Desktop*/
@@ -341,6 +339,79 @@
       "header"
       "sectionUnoContactanos"
       "sectionDosContactanos"
+      "footer";
+  }
+}
+
+/*Fin maquetacion de contactanos de mobile*/
+
+/*---------------------------------------------------------*/
+
+.grid-containerHistoria {
+  display: grid;
+  grid-template-rows: 90px 570px 410px 400px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "sectionUnoHistoria"
+    "sectionDosHistoria"
+    "footer";
+  .header {
+    grid-area: header;
+    background-color: $color-header;
+    width: 100%;
+  }
+
+  .sectionUnoHistoria {
+    grid-area: sectionUnoHistoria;
+    width: 100%;
+  }
+
+  .sectionDosHistoria {
+    grid-area: sectionDosHistoria;
+    width: 100%;
+  }
+
+  .pie {
+    grid-area: footer;
+    width: 100%;
+  }
+}
+
+/*Fin maquetacion de historia desktop*/
+
+/*--------------------------------------------------*/
+
+/*Inicio maquetacion Historia mediana*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerHistoria {
+    display: grid;
+    grid-template-rows: 90px 300px 750px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sectionUnoHistoria"
+      "sectionDosHistoria"
+      "footer";
+  }
+}
+
+/*Fin maquetacion Historia mediana*/
+
+/*------------------------------------------------------------*/
+
+/*Inicio maquetacion Historia mobile*/
+
+@media only screen and (max-width: 480px) {
+  .grid-containerHistoria {
+    display: grid;
+    grid-template-rows: 90px 250px 790px 400px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sectionUnoHistoria"
+      "sectionDosHistoria"
       "footer";
   }
 }
