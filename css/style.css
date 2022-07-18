@@ -16,6 +16,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
@@ -212,7 +213,7 @@
 /*Inicio maquetacion Contactanos desktop*/
 .grid-containerContactanos {
   display: grid;
-  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-rows: 90px 570px 610px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
 }
@@ -231,7 +232,6 @@
 .sectionDosContactanos {
   grid-area: sectionDosContactanos;
   width: 100%;
-  border: solid 2px blue;
 }
 
 .pie {
@@ -274,6 +274,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*Importare el mapa*/
 /*usare este mapo en el header*/
 /*Estilos header*/
@@ -321,6 +322,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*aqui se importará el extend para los botones*/
 /*Voy a hacer un extend para todos los botones de mi page Home*/
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
@@ -390,6 +392,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*Inicio sectionDos*/
 .sectionDos {
   background-color: #56beb6;
@@ -443,6 +446,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*Inicio estilos sectionTres*/
 .sectionTres {
   background-color: #f2cf66;
@@ -506,6 +510,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*Inicio estilos sectionCuatro*/
 .sectionCuatro {
   background-color: #f29985;
@@ -558,6 +563,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*aqui importare el extend para los botones*/
 /*Voy a hacer un extend para todos los botones de mi page Home*/
 .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
@@ -628,6 +634,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 * {
   padding: 0;
   margin: 0;
@@ -812,7 +819,7 @@
 /*Inicio maquetacion Contactanos desktop*/
 .grid-containerContactanos {
   display: grid;
-  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-rows: 90px 570px 610px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
 }
@@ -831,7 +838,6 @@
 .sectionDosContactanos {
   grid-area: sectionDosContactanos;
   width: 100%;
-  border: solid 2px blue;
 }
 
 .pie {
@@ -874,6 +880,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*Inicio estilos de Nosotros*/
 .grid-containerNosotros {
   /*Inicio  estilos sectionUno de nosotros*/
@@ -1110,6 +1117,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 * {
   padding: 0;
   margin: 0;
@@ -1294,7 +1302,7 @@
 /*Inicio maquetacion Contactanos desktop*/
 .grid-containerContactanos {
   display: grid;
-  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-rows: 90px 570px 610px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
 }
@@ -1313,7 +1321,6 @@
 .sectionDosContactanos {
   grid-area: sectionDosContactanos;
   width: 100%;
-  border: solid 2px blue;
 }
 
 .pie {
@@ -1356,6 +1363,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 .grid-containerSabores {
   /*inicio estilos sectionDos Sabores*/
   /*Fin estilos sectionDos de sabores*/
@@ -1620,6 +1628,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 /*En esta sección estarán las variables*/
 /*variables del header*/
 /*Fin variables del header*/
@@ -1633,6 +1642,7 @@
 /*Fin estilos del footer*/
 /*variable Nosotros*/
 /*variables sabores*/
+/*Variables contactanos*/
 * {
   padding: 0;
   margin: 0;
@@ -1817,7 +1827,7 @@
 /*Inicio maquetacion Contactanos desktop*/
 .grid-containerContactanos {
   display: grid;
-  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-rows: 90px 570px 610px 400px;
   grid-template-columns: 100%;
   grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
 }
@@ -1836,7 +1846,6 @@
 .sectionDosContactanos {
   grid-area: sectionDosContactanos;
   width: 100%;
-  border: solid 2px blue;
 }
 
 .pie {
@@ -1866,20 +1875,20 @@
     grid-template-areas: "header" "sectionUnoContactanos" "sectionDosContactanos" "footer";
   }
 }
-.sectionUnoContactanos div img {
+.grid-containerContactanos .sectionUnoContactanos div img {
   width: 100%;
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  .sectionUnoContactanos div img {
+  .grid-containerContactanos .sectionUnoContactanos div img {
     height: 320px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .sectionUnoContactanos div img {
+  .grid-containerContactanos .sectionUnoContactanos div img {
     height: 220px;
   }
 }
-.sectionUnoContactanos div .gustan {
+.grid-containerContactanos .sectionUnoContactanos div .gustan {
   font-family: "Anton", sans-serif;
   font-size: 105px;
   position: relative;
@@ -1889,19 +1898,19 @@
   text-shadow: 4px 4px 4px black;
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  .sectionUnoContactanos div .gustan {
+  .grid-containerContactanos .sectionUnoContactanos div .gustan {
     font-size: 38px;
     bottom: 155px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .sectionUnoContactanos div .gustan {
+  .grid-containerContactanos .sectionUnoContactanos div .gustan {
     font-size: 30px;
     bottom: 110px;
     left: 2px;
   }
 }
-.sectionUnoContactanos div .contactanos {
+.grid-containerContactanos .sectionUnoContactanos div .contactanos {
   color: white;
   position: relative;
   font-size: 55px;
@@ -1910,17 +1919,57 @@
   text-shadow: 4px 4px 4px black;
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  .sectionUnoContactanos div .contactanos {
+  .grid-containerContactanos .sectionUnoContactanos div .contactanos {
     font-size: 38px;
     bottom: 135px;
   }
 }
 @media only screen and (max-width: 480px) {
-  .sectionUnoContactanos div .contactanos {
+  .grid-containerContactanos .sectionUnoContactanos div .contactanos {
     font-size: 30px;
     bottom: 80px;
     left: 5px;
   }
+}
+.grid-containerContactanos .sectionDosContactanos {
+  background-color: #f2cf66;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor1 {
+  display: flex;
+  justify-content: center;
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor1 .formulario__contacto {
+  color: white;
+  font-size: 35px;
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 form {
+  width: 800px;
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 form {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 form {
+    width: 350px;
+  }
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 form .btn {
+  background-color: #f29985;
+  border: #f29985;
+}
+.grid-containerContactanos .sectionDosContactanos .sectionDosContactanos__contenedor2 form .btn:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -278,7 +278,7 @@
 
 .grid-containerContactanos {
   display: grid;
-  grid-template-rows: 90px 570px 600px 400px;
+  grid-template-rows: 90px 570px 610px 400px;
   grid-template-columns: 100%;
   grid-template-areas:
     "header"
@@ -301,7 +301,6 @@
 .sectionDosContactanos {
   grid-area: sectionDosContactanos;
   width: 100%;
-  border: solid 2px blue;
 }
 
 .pie {
