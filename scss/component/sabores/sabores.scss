@@ -85,21 +85,25 @@
       color: $color-letras;
       @media only screen and (min-width: 481px) and (max-width: 960px) {
         width: 450px;
+        position: relative;
+        bottom: 65px;
       }
       @media only screen and (max-width: 480px) {
         width: 320px;
         position: relative;
-        bottom: 70px;
+        bottom: 105px;
       }
     }
     h1 {
       color: $color-letras;
       @media only screen and (min-width: 481px) and (max-width: 960px) {
         text-align: center;
+        position: relative;
+        bottom: 70px;
       }
       @media screen and (max-width: 480px) {
         position: relative;
-        bottom: 70px;
+        bottom: 105px;
       }
     }
   }
@@ -156,7 +160,7 @@
           height: 240px;
           position: relative;
           left: 50px;
-          top: 45px;
+          top: 195px;
         }
       }
     }
@@ -184,7 +188,7 @@
           width: 305px;
           position: relative;
           bottom: 75px;
-          left: 50px;
+          left: 40px;
         }
       }
     }
@@ -195,6 +199,8 @@
         color: $color-letras;
         @media only screen and (min-width: 480px) and (max-width: 960px) {
           text-align: center;
+          position: relative;
+          bottom: 75px;
         }
         @media only screen and (max-width: 480px) {
           width: 350px;
@@ -209,12 +215,14 @@
         @media only screen and (min-width: 480px) and (max-width: 960px) {
           position: relative;
           left: 10px;
+          width: 480px;
+          bottom: 80px;
         }
         @media only screen and (max-width: 480px) {
           width: 305px;
           position: relative;
           bottom: 205px;
-          left: 50px;
+          left: 40px;
         }
       }
     }

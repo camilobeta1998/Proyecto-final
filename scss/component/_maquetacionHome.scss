@@ -236,7 +236,7 @@
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 300px 700px 750px 710px 400px;
+    grid-template-rows: 90px 300px 850px 870px 710px 400px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
@@ -257,7 +257,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerSabores {
     display: grid;
-    grid-template-rows: 90px 250px 770px 620px 600px 400px;
+    grid-template-rows: 90px 250px 850px 850px 600px 400px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
