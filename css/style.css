@@ -1701,7 +1701,7 @@
   .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor1 video {
     width: 400px;
     position: relative;
-    left: 45px;
+    left: 55px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1709,7 +1709,7 @@
     width: 305px;
     position: relative;
     bottom: 75px;
-    left: 40px;
+    left: 38px;
   }
 }
 .grid-containerSabores .sectionCuatroSabores .sectionCuatroSabores__contenedor2 {
