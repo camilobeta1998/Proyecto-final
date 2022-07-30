@@ -41,6 +41,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -146,7 +147,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -460,7 +461,7 @@
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor1__video {
-    width: 500px;
+    width: 450px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -471,11 +472,19 @@
 .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
   /*aqui inclui el mixin con el color blanco que esta guardado con $color-letras*/
   color: white;
-  width: 550px;
+  width: 450px;
 }
 @media only screen and (max-width: 480px) {
   .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 {
     width: 350px;
+  }
+  .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 h1 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  .sectionDos .sectionDos__contenedor1 .sectionDos__contenedor2 h1 {
+    text-align: center;
   }
 }
 
@@ -693,6 +702,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -798,7 +808,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -975,6 +985,7 @@
 /*Inicio estilos de Nosotros*/
 .grid-containerNosotros {
   /*Inicio  estilos sectionUno de nosotros*/
+  overflow-x: hidden;
   /*Fin estilos de la sectionUno de nosotros*/
   /*-----------------------------------------------*/
   /*Inicio estilos sectionDos de nosotros*/
@@ -1082,7 +1093,7 @@
   .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 h1 {
     position: relative;
     right: 15px;
-    bottom: 90px;
+    bottom: 30px;
   }
 }
 .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
@@ -1099,7 +1110,8 @@
   .grid-containerNosotros .sectionDosNosotros .sectionDosNosotros__contenedor2 p {
     position: relative;
     right: 35px;
-    bottom: 90px;
+    bottom: 25px;
+    border: solid 2px black;
   }
 }
 .grid-containerNosotros .sectionTresNosotros {
@@ -1117,7 +1129,6 @@
   top: 55px;
 }
 .grid-containerNosotros .sectionTresNosotros .sectionTresNosotros__contenedor1 div {
-  border: solid 2px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1217,6 +1228,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -1322,7 +1334,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -1497,6 +1509,7 @@
 /*Variables contactanos*/
 /*Variable historia*/
 .grid-containerSabores {
+  overflow-x: hidden;
   /*inicio estilos sectionDos Sabores*/
   /*Fin estilos sectionDos de sabores*/
   /*Inicio sectionTres de sabores*/
@@ -1792,6 +1805,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -1897,7 +1911,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -2055,6 +2069,9 @@
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoHistoria" "sectionDosHistoria" "footer";
   }
+}
+.grid-containerContactanos {
+  overflow-x: hidden;
 }
 .grid-containerContactanos .sectionUnoContactanos div img {
   width: 100%;
@@ -2190,6 +2207,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -2295,7 +2313,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoNosotros" "sectionDosNosotros" "sectionTresNosotros" "footer";
   }
@@ -2453,6 +2471,9 @@
     grid-template-columns: 100%;
     grid-template-areas: "header" "sectionUnoHistoria" "sectionDosHistoria" "footer";
   }
+}
+.grid-containerHistoria {
+  overflow-x: hidden;
 }
 .grid-containerHistoria .sectionUnoHistoria .sectionUnoHistoria__contenedor1 {
   position: relative;

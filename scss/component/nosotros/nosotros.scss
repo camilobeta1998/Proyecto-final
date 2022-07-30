@@ -6,6 +6,7 @@
 
 .grid-containerNosotros {
   /*Inicio  estilos sectionUno de nosotros*/
+  overflow-x: hidden;
   .sectionUnoNosotros {
     img {
       width: 100%;
@@ -96,7 +97,7 @@
         @media only screen and (max-width: 480px) {
           position: relative;
           right: 15px;
-          bottom: 90px;
+          bottom: 30px;
         }
       }
       p {
@@ -109,7 +110,8 @@
         @media only screen and (max-width: 480px) {
           position: relative;
           right: 35px;
-          bottom: 90px;
+          bottom: 25px;
+          border: solid 2px black;
         }
       }
     }
@@ -133,7 +135,6 @@
       position: relative;
       top: 55px;
       div {
-        border: solid 2px black;
         &:hover {
           transform: scale(1.1);
         }

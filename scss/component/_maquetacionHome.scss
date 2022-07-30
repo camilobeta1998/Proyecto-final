@@ -11,6 +11,7 @@
 
 /*Inicio maquetacion index desktop*/
 .grid-container {
+  overflow-x: hidden;
   display: grid;
   grid-template-rows: 90px 650px 400px 500px 600px 400px;
   grid-template-columns: 100%;
@@ -168,7 +169,7 @@
 @media only screen and (max-width: 480px) {
   .grid-containerNosotros {
     display: grid;
-    grid-template-rows: 90px 250px 800px 1200px 400px;
+    grid-template-rows: 90px 250px 650px 1200px 400px;
     grid-template-columns: 100%;
     grid-template-areas:
       "header"
